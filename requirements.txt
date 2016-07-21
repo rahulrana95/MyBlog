@@ -1,6 +1,6 @@
-Django==1.9.7
-PAM==0.1.4
-Pillow==2.9.0
+Django==1.9.8
+argparse==1.2.1
+dj-database-url==0.4.1
+gunicorn==19.6.0
 whitenoise==3.2
 wsgiref==0.1.2
-psycopg2==2.5.4
