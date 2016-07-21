@@ -1,0 +1,162 @@
+{% load staticfiles %}
+<html>
+    <head>
+       
+        <title>Coding Planet blog</title>
+       
+        <!-- -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+       
+       <!-- -->
+
+
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+       <!-- -->
+        <link rel="stylesheet" type="text/css" href="{% static 'css/h-header.css' %}">
+
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    
+        <!-- -->
+
+
+    </head>
+    
+
+<body>
+        
+
+    <!-- -->
+
+    <div class="h-header">
+            <div class="h-logo">
+                
+                <span class="csd">CODING PLANET</span>
+            </div>
+            
+            
+
+
+            <div class="h-text">
+                <div class="te-home h-p"><p>HOMEPAGE</p></div>
+                <div class="te-languages h-p"><p >LANGUAGES</p></div>
+                <div class="te-blog h-p"><p>BLOG</p></div>
+                <div class="te-team h-p"><p>OUR TEAM</p></div>
+                <div class="te-contact h-p"><p>CONTACT</p></div>
+            </div>
+
+     </div>
+
+    <!-- -->
+
+
+    <!-- -->
+    <div class="leftPanel">
+            
+
+            <div style="margin-top: 1.5vw;">
+                <center><span>
+                    <img src="{% static 'images/cp.png' %}" width="100vw" height="100vw" style="border-radius: 1vw" >
+                </span>
+                </center>
+            </div>
+            <div class="l-head" style="margin-top:2vw;font-style: 'Roboto';font-size: 2vw;" ><center><span >
+                Access Elements
+            </span></center></div>
+
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                </li>
+
+                <li>
+                    <a href="">Data Structures</a>
+                </li>
+
+                <li>
+                    <a href="">Algorithms</a>
+                </li>
+
+                <li>
+                    <a href="">Questions</a>
+                </li>
+
+                <li>
+                    <a href="">Any Suggestion</a>
+                </li>
+            </ul>
+
+
+    </div>
+    <!-- -->
+
+    <div class="rightPanel">
+
+
+
+            <div class="l-head" style="margin-top:2vw;font-style: 'Roboto';font-size: 2vw;" ><center><span >
+                Archive
+            </span></center></div>
+
+            <ul>
+
+                <li>
+                    <a href="">Trending Post</a>
+                </li>
+
+
+
+                <li>
+                    <a href="">This Month</a>
+                </li>
+
+                <li>
+                    <a href="">2016</a>
+                </li>
+
+                <li>
+                    <a href="">2015</a>
+                </li>
+
+                
+
+            </ul>
+
+
+
+
+    </div>
+
+    <!-- -->
+
+    <div class="postArea">
+        
+
+                    {% for post in posts %}
+                    
+                    <div class="post">
+                            
+             
+                           
+                            <center><h1><a href="">{{ post.title }}</a></h1></center>
+
+                                           <span>Published: {{ post.published_date }}</span>
+                                           <hr>
+                           
+                            <p>{{ post.text|linebreaksbr }}</p>
+                        
+
+                    </div>
+
+
+                <hr>
+
+
+                    {% endfor %}
+    </div>
+
+    <!-- -->
+
+    </body>
+</html>

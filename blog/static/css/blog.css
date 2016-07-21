@@ -1,0 +1,205 @@
+h1 a {
+    color: #FCA205;
+}
+
+body {
+  
+	background-color: #093348;
+
+
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 768px)
+
+{
+
+.postArea{
+
+		width:80vw;
+		margin-left: auto;
+		margin-right: auto;
+		
+		padding: 3vw 3vw 3vw 3vw;
+		height: auto;
+		background-color:white;
+		border:2px solid black;
+		border-radius: 2vw;
+		margin-top: 2vw;
+		color:black;
+		 
+		
+
+		max-height: 300vw;
+		overflow:scroll;
+}
+
+
+.leftPanel{
+
+	width: 80vw;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(23,95,199,0.17);
+	height:auto;
+
+	
+
+	margin-top: 2vw;
+	border:0.2vw solid rgba(3,18,19,1);
+	border-radius: 2vw;
+
+
+
+}
+
+.leftPanel ul{
+	color: white;
+	
+}
+
+.leftPanel li{
+
+	font-size: 1.5vw;
+}
+
+
+.rightPanel ul{
+
+	padding-top: 2vw;
+}
+
+.rightPanel li{
+
+	padding-top: 2vw;
+	font-size: 1.5vw;
+}
+
+.rightPanel{
+
+	width: 0vw;
+	float: right;
+	background-color: rgba(23,95,199,0.17);
+	height:40vw;
+
+	
+	margin-right: 2vw;
+	margin-top: 2vw;
+	border:0.2vw solid black;
+	border-radius: 2vw;
+
+
+
+}
+
+
+.post{
+
+	background-color: rgba(34,17,191,0.19);
+	color: black;
+	border-bottom:0.5vw solid black;
+	padding:1vw 1vw 1vw 1vw;
+	border-radius: 2vw;
+	
+}
+
+
+}
+
+@media only screen and (min-width:768px){ 
+
+.postArea{
+
+		margin-left: auto;
+		margin-right: auto;
+		width: 50vw;
+		padding: 3vw 3vw 3vw 3vw;
+		height: auto;
+		background-color:white;
+		border:2px solid black;
+		border-radius: 2vw;
+		margin-top: 2vw;
+		color:black;
+		margin-left:1vw; 
+		float:left;
+
+		max-height: 300vw;
+		overflow:scroll;
+}
+
+
+.leftPanel{
+
+	width: 20vw;
+	float: left;
+	background-color: rgba(23,95,199,0.17);
+	height:40vw;
+
+	
+	margin-right: 1vw;
+	margin-top: 2vw;
+	margin-left: 1.5vw;
+	border:0.2vw solid rgba(3,18,19,1);
+	border-radius: 2vw;
+
+
+
+}
+
+.leftPanel ul{
+	color: white;
+	padding-top: 2vw;
+}
+
+.leftPanel li{
+
+	padding-top: 2vw;
+	font-size: 1.5vw;
+}
+
+
+.rightPanel ul{
+
+	padding-top: 2vw;
+}
+
+.rightPanel li{
+
+	padding-top: 2vw;
+	font-size: 1.5vw;
+}
+
+.rightPanel{
+
+	width: 22vw;
+	float: right;
+	background-color: rgba(23,95,199,0.17);
+	height:40vw;
+
+	
+	margin-right: 2vw;
+	margin-top: 2vw;
+	border:0.2vw solid black;
+	border-radius: 2vw;
+
+
+
+}
+
+
+.post{
+
+	background-color: rgba(34,17,191,0.19);
+	color: black;
+	border-bottom:0.5vw solid black;
+	padding:1vw 1vw 1vw 1vw;
+	border-radius: 2vw;
+	
+}
+
+
+
+
+}

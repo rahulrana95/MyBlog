@@ -1,0 +1,108 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+
+
+}
+.h-header{
+	background-color: #093348;
+	width: 100%;
+	height: 8vw;
+	color: white;
+
+}
+
+.te-home:hover{
+
+background-color:#0B2F3A;
+text-align:center;
+margin-top:1vw;
+font-weight:bold;
+font-style:italic;
+
+
+
+
+
+}
+
+
+
+
+.te-languages:hover{
+
+background-color:#0B2F3A;
+text-align:center;
+margin-top:1vw;
+font-weight:bold;
+font-style:italic;
+
+
+}
+
+.te-blog:hover{
+
+background-color:#0B2F3A;
+text-align:center;
+margin-top:1vw;
+font-weight:bold;
+font-style:italic;
+
+
+}
+
+.te-team:hover{
+
+background-color:#0B2F3A;
+text-align:center;
+margin-top:1vw;
+font-weight:bold;
+font-style:italic;
+
+
+}
+
+.te-contact:hover{
+
+background-color:#0B2F3A;
+text-align:center;
+margin-top:1vw;
+font-weight:bold;
+font-style:italic;
+
+
+}
+
+
+.h-logo {
+	font-family: Roboto;
+	font-size: 2vw;
+float:left;	
+margin-left:16vw;
+	width:20vw;
+	padding-top: 2vw
+}
+
+.h-text {
+
+	float: right;
+	margin-top: 2.5vw;
+	margin-right: 2vw;
+
+}
+.h-p{
+display:inline;
+}
+
+
+.h-text p {
+	display: inline;
+	font-family: Roboto;
+	font-size: 1.2vw;
+	text-transform: uppercase;
+	margin-right: 2vw;
+}
