@@ -3,7 +3,6 @@ PAM==0.1.4
 Pillow==2.9.0
 PyJWT==1.0.0
 
-Twisted-Web==15.2.1
 adium-theme-ubuntu==0.3.4
 apt-xapian-index==0.46
 argparse==1.2.1
